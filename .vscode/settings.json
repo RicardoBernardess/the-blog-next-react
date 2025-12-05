@@ -9,6 +9,7 @@
   "editor.lineNumbers": "on",
   "files.eol": "\n", // Final de linha sempre será LF
   "workbench.editor.labelFormat": "short",
+  "workbench.editor.enablePreview": false,
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
 
@@ -18,6 +19,10 @@
   "code-runner.executorMap": {
     "typescript": "clear ; npx tsx"
   },
+
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
 
   // 🛠 Formatação e Lint
   "editor.defaultFormatter": "esbenp.prettier-vscode",
