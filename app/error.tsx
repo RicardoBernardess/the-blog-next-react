@@ -1,3 +1,4 @@
+//QUALQUER componente impotado em um arquivo "use client" se tornará TAMBÉM "use client".
 'use client';
 
 import ErrorMessage from '@/components/ErrorMessage';
