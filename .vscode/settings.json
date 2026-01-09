@@ -9,7 +9,7 @@
   "editor.lineNumbers": "on",
   "files.eol": "\n", // Final de linha sempre será LF
   "workbench.editor.labelFormat": "short",
-  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreview": true,
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
 
